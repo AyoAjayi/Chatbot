@@ -15,3 +15,38 @@ My project right now has my yelp API response but I was not able to parse that d
 I would improve this project making sure the name of the user is displayed alongside their text. I will also ensure that I incorporate my API and only allow the user to sign in after they logged in.
 
 ##
+
+
+### Ayo's Chatbot  created by Ayomide Ajayi
+ 
+This web app is a chatroom in development where students can log in using the Google API, communicate with each other, and view previous conversations. The theme of this chatbot is light and happy.
+### Built With:
+
+- Python
+-	Flask
+-	React
+-	Used socket.io for long polling to occur between server and client
+-	Deployed via [Heroku](http://infinite-beach-83396.herokuapp.com/)
+
+
+
+### Functionality:
+
+
+- When the user types !! help, they get a list of commands they can use to navigate through the chatroom. The chatbot is there to help them.
+- A new user can log in to the chatroom and their username and profile picture are pulled from the Google API and displayed in the chatroom
+- Many people can use the chat room at once
+- Messages that is entered in the text area is stored in a a database and laoded up when someone visits the site.
+- If a user enters a url, it is clickable through the chatbot.
+
+
+### Known Problems:
+I had some issues while working on the project that I fixed later. Some are:
+
+* I struggled with implementing my yelp api and making an even further advanced chatbot. The yelp api would have allowed the user to see food places near them. I am currently working to resolve this.
+
+* I struggled with getting my app running with heroku initially. However, I realized that I need to update my requirements.txt file. 
+
+* I could have decorated and formatted my chatbot more nicely.
+
+
